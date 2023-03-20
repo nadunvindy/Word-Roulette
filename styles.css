@@ -1,0 +1,46 @@
+html {
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-color: lightblue;
+  color: cornflowerblue;
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+}
+
+.gamename {
+  align-self: center;
+  justify-self: flex-start;
+  text-decoration: line-through;
+}
+
+.title {
+  align-self: center;
+  font-size: 50px;
+}
+
+#gamepage {
+  align-self: center;
+  justify-self: center;
+  color: cornflowerblue;
+}
+
+#gamepage:hover {
+  color: rgb(0, 18, 117);
+}
+
+.titleinfo {
+  align-self: center;
+  text-align: center;
+  border: solid cornflowerblue;
+  width: 500px;
+  height: 300px;
+  margin-top: 200px;
+}
+
+.titleinfo:hover {
+  color: rgb(0, 18, 117);
+  border-color: rgb(0, 18, 117);
+}
