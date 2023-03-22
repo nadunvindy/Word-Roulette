@@ -1,0 +1,90 @@
+html {
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-color: lightblue;
+  color: cornflowerblue;
+  display: flex;
+  flex-direction: column;
+  height: 900px;
+}
+
+.gamename {
+  align-self: center;
+  justify-self: flex-start;
+  text-decoration: line-through;
+}
+
+#gamepage {
+  align-self: center;
+  justify-self: center;
+  color: cornflowerblue;
+}
+
+#gamepage:hover {
+  color: rgb(0, 18, 117);
+}
+
+.titleinfo {
+  align-self: center;
+  text-align: center;
+  border: solid cornflowerblue;
+  width: 700px;
+  height: 400px;
+  margin-top: 80px;
+}
+
+.titleinfo:hover {
+  color: rgb(0, 18, 117);
+  border-color: rgb(0, 18, 117);
+}
+
+.gameresult {
+  align-self: center;
+  text-align: center;
+  border: solid cornflowerblue;
+  width: 700px;
+  height: 200px;
+  margin-top: 50px;
+}
+
+.gameresult:hover {
+  color: rgb(0, 18, 117);
+  border-color: rgb(0, 18, 117);
+}
+
+.tagline {
+  font-size: 30px;
+}
+
+form {
+  margin-top: 100px;
+}
+
+#word {
+  color: cornflowerblue;
+  background-color: lightblue;
+  text-decoration:underline;
+}
+
+#word:hover {
+  color: rgb(0, 18, 117);
+  border-color: rgb(0, 18, 117);
+}
+
+#guessbutton {
+  height: 40px;
+  width: 100px;
+  margin-top: 10px;
+  background-color: lightblue;
+  color: cornflowerblue;
+  border: 2px solid cornflowerblue;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#guessbutton:hover {
+  color: rgb(0, 18, 117);
+  border-color: rgb(0, 18, 117);
+}
+
