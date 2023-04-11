@@ -65,12 +65,12 @@ function wordle(guessword, targetword) {
       if (i == 0) {
         let ind = -1;
         for (let j = 0; j < 5; j++) {
-          if (guessword[i] == targetword[j]) {
+          if (guessword[i] == targetword[j] && i==j) {
             ind = j;
           }
         }
         if (i == ind) {
-          resultext.push("1.Correct Letter");
+          resultext.push("1.Correct Letter\n");
           correctLetters++;
         } else if (i != ind && ind != -1) {
           resultext.push("1.Correct Letter in incorrect position");
@@ -80,7 +80,7 @@ function wordle(guessword, targetword) {
       } else if (i == 1) {
         let ind = -1;
         for (let j = 0; j < 5; j++) {
-          if (guessword[i] == targetword[j]) {
+          if (guessword[i] == targetword[j] && i==j) {
             ind = j;
           }
         }
@@ -95,7 +95,7 @@ function wordle(guessword, targetword) {
       } else if (i == 2) {
         let ind = -1;
         for (let j = 0; j < 5; j++) {
-          if (guessword[i] == targetword[j]) {
+          if (guessword[i] == targetword[j] && i==j) {
             ind = j;
           }
         }
@@ -110,7 +110,7 @@ function wordle(guessword, targetword) {
       } else if (i == 3) {
         let ind = -1;
         for (let j = 0; j < 5; j++) {
-          if (guessword[i] == targetword[j]) {
+          if (guessword[i] == targetword[j] && i==j) {
             ind = j;
           }
         }
@@ -125,7 +125,7 @@ function wordle(guessword, targetword) {
       } else if (i == 4) {
         let ind = -1;
         for (let j = 0; j < 5; j++) {
-          if (guessword[i] == targetword[j]) {
+          if (guessword[i] == targetword[j] && i==j) {
             ind = j;
           }
         }
