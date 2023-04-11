@@ -31,7 +31,7 @@ body {
   text-align: center;
   border: solid cornflowerblue;
   width: 700px;
-  height: 400px;
+  height: 450px;
   margin-top: 80px;
 }
 
@@ -47,6 +47,11 @@ body {
   width: 700px;
   height: 200px;
   margin-top: 50px;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-self: center;
 }
 
 .gameresult:hover {
@@ -87,4 +92,5 @@ form {
   color: rgb(0, 18, 117);
   border-color: rgb(0, 18, 117);
 }
+
 
