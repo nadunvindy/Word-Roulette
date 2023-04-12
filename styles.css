@@ -3,8 +3,8 @@ html {
 }
 
 body {
-  background-color: lightblue;
-  color: cornflowerblue;
+  background-color: black;
+  color: white;
   display: flex;
   flex-direction: column;
   height: 800px;
@@ -24,25 +24,25 @@ body {
 #gamepage {
   align-self: center;
   justify-self: center;
-  color: cornflowerblue;
+  color: white;
 }
 
 #gamepage:hover {
-  color: rgb(0, 18, 117);
+  color:pink;
 }
 
 .titleinfo {
   align-self: center;
   text-align: center;
-  border: solid cornflowerblue;
+  border: solid white;
   width: 500px;
   height: 300px;
   margin-top: 200px;
 }
 
 .titleinfo:hover {
-  color: rgb(0, 18, 117);
-  border-color: rgb(0, 18, 117);
+  color:pink;
+  border-color: pink;
 }
 
 .gameresult {
